@@ -1,0 +1,20 @@
+{
+  "name": "angular-examples",
+  "homepage": "https://github.com/ndurgaprasad/angular-examples",
+  "authors": [
+    "Durga Prasad Narikalapa <dprasad@nisum.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
