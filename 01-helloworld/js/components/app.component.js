@@ -2,7 +2,7 @@
 
     angular.module('myApp')
         .component('helloWorld', {
-            template: "<h1>Hello World - {{$ctrl.message}}</h1>",
+            template: "<h1 class='text-center'>Hello World - {{$ctrl.message}}</h1>",
             controller: MainCtrl
         });
 

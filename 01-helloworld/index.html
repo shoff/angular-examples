@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
-    <head>
-        <title>01 - Hello World</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <hello-world></hello-world>
-        <script src="../bower_components/angular/angular.min.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/components/app.component.js"></script>
-    </body>
+
+<head>
+	<title>01 - Hello World</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron center">
+			<hello-world></hello-world>
+		</div>
+	</div>
+
+	<script src="../bower_components/angular/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/components/app.component.js"></script>
+</body>
+
 </html>
