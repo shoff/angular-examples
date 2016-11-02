@@ -7,3 +7,5 @@ Angular 1.5 examples
 2. npm install
 3. bower install
 4. npm start {project_name}
+
+Open your favorite browser then type: **http://localhost:9999**
