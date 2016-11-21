@@ -14,6 +14,6 @@ Angular 1.X examples
 *Goto the project location, open your terminal and excute below*
 2. npm install
 3. bower install
-4. npm start {project_name}, **Ex: npm start 01-helloworld**
+4. npm start {project_name}, **Ex: npm start 01-startup**
 
 Open your favorite browser then type: **http://localhost:9999**
