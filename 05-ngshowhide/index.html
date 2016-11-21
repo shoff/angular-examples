@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="AnimateApp">
+
+<head>
+    <title>01 - Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="mainController">
+    <div class="container">
+        <div class="row text-center">
+            <h1>Animating Angular Apps <small>ngShow and ngHide</small></h1>
+            <a class="btn btn-primary" href="#" ng-click="lions = !lions" ng-class="{ active: lions }">Toggle Lion</a>
+            <a class="btn btn-success" href="#" ng-click="cranes = !cranes" ng-class="{ active: cranes }">Toggle Crane</a>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="jumbotron" ng-show="lions">
+                    <img src="../images/lion.jpg" class="img-responsive img-thumbnail">
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="jumbotron" ng-show="cranes">
+                    <img src="../images/crane.jpg" class="img-responsive img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

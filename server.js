@@ -17,6 +17,7 @@ app.use(function(req, res, next) {
 app.use(morgan('dev'));
 app.use(express.static(__dirname + '/'+process.argv[2]));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
+app.use('/images', express.static(__dirname + '/images'));
 
 app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
