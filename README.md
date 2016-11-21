@@ -1,5 +1,5 @@
 # angular-examples
-Angular 1.5 examples
+Angular 1.X examples
 
 **Environment Setup**
 
